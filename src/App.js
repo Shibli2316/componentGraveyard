@@ -1,22 +1,27 @@
 import React from 'react';
-import Navbar from './features/navbar/Navbar';
-
-
-
-import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
 } from "react-router-dom";
 
 import NotFoundPage from './pages/NotFoundPage';
+import Home from './features/home/Home';
+import ProductListPage from './pages/ProductListPage';
+import ProductPage from './pages/ProductPage';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar />
+    element: <Home />
+  },
+  {
+    path: "/productList",
+    element: <ProductListPage/>
+  },
+  {
+    path: "/product",
+    element: <ProductPage/>
   },
 
   {
