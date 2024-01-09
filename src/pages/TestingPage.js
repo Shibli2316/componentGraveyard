@@ -1,4 +1,4 @@
-import Test from "../features/product/Test";
+import Test from "../features/test/Test";
 
 function TestingPage() {
     return (
