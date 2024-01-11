@@ -1,3 +1,4 @@
+import Footer from "../features/footer/Footer";
 import Navbar from "../features/navbar/Navbar";
 import Doodle from "../features/product/categories/Doodle";
 
@@ -6,7 +7,7 @@ function DoodlePage() {
         <>
             <Navbar />
             <Doodle />
-            
+            <Footer />
         </>
     );
 }

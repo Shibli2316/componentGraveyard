@@ -43,8 +43,20 @@ const products = [
 export default function Home() {
     return (
         <>
+
+<div class="relative h-screen w-full">
+    <img src="https://images.unsplash.com/photo-1494783367193-149034c05e8f" alt="Background" class="absolute inset-0 w-full h-full object-cover filter blur-sm" />
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="absolute inset-0 flex flex-col items-center justify-center">
+        <h1 class="text-4xl text-white font-bold">Hello, World!</h1>
+        <p class="text-xl text-white mt-4">Doodles incoming</p>
+    </div>
+</div>
+
+
+
             <div className="w-11/12 mx-auto mt-2">
-                <div className="bg-green-50 rounded-lg">
+                <div className="bg-white rounded-lg">
                     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                         <div className="grid grid-cols-8">
                             <h2 className="text-4xl font-bold tracking-tight text-gray-900 col-span-4">Acrylics</h2>
@@ -88,8 +100,8 @@ export default function Home() {
             </div>
 
 
-            <div className="w-11/12 mx-auto">
-                <div className="bg-stone-50 rounded-lg">
+            <div className="w-11/12 mx-auto mt-2">
+                <div className="bg-stone-50 ">
                     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                         <div className="grid grid-cols-8">
                             <h2 className="text-4xl font-bold tracking-tight text-gray-900 col-span-4">Doodles</h2>
@@ -132,8 +144,8 @@ export default function Home() {
             </div>
 
 
-            <div className="w-11/12 mx-auto">
-                <div className="bg-green-50 rounded-lg">
+            <div className="w-11/12 mx-auto mt-2">
+                <div className="bg-white rounded-lg">
                     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                         <div className="grid grid-cols-8">
                             <h2 className="text-4xl font-bold tracking-tight text-gray-900 col-span-4">Line Art</h2>
@@ -176,8 +188,8 @@ export default function Home() {
             </div>
 
 
-            <div className="w-11/12 mx-auto">
-                <div className="bg-stone-50 rounded-lg">
+            <div className="w-11/12 mx-auto mt-2 mb-4">
+                <div className="bg-stone-50">
                     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                         <div className="grid grid-cols-8">
                             <h2 className="text-4xl font-bold tracking-tight text-gray-900 col-span-4">Murals</h2>

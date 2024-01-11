@@ -97,9 +97,9 @@ const products = [
 export default function Doodle() {
     return (
         <>
-            <div className="bg-slate-200">
+            <div className="bg-slate-50">
                 <div className="w-11/12 mx-auto">
-                    <div className="bg-zinc-100 rounded-lg">
+                    <div className="bg-white">
                         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                             <div className="">
                                 <h2 className="text-4xl font-bold tracking-tight text-gray-900 text-center ">Doodle Section</h2>

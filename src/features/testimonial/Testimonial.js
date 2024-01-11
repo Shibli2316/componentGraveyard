@@ -1,7 +1,8 @@
 function Testimonial() {
     return (
         <>
-            <div className="text-gray-600 dark:text-gray-300 mt-8" id="reviews">
+        <div className="w-11/12 mx-auto">
+            <div className="text-gray-600 dark:text-gray-300 mt-8 mb-4" id="reviews">
 
                 <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
 
@@ -113,6 +114,7 @@ function Testimonial() {
 
                     </div>
                 </div>
+            </div>
             </div>
         </>
     );

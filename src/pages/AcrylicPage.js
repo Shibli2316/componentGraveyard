@@ -1,4 +1,5 @@
 
+import Footer from "../features/footer/Footer";
 import Navbar from "../features/navbar/Navbar";
 import Acrylic from "../features/product/categories/Acrylic";
 
@@ -7,7 +8,7 @@ function AcrylicPage() {
         <>
         <Navbar />
             <Acrylic />
-            
+            <Footer />
         </>
     );
 }

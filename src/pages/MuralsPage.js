@@ -1,3 +1,4 @@
+import Footer from "../features/footer/Footer";
 import Navbar from "../features/navbar/Navbar";
 import Murals from "../features/product/categories/Murals";
 
@@ -6,7 +7,7 @@ function MuralsPage() {
         <>
         <Navbar />
             <Murals />
-            
+           <Footer /> 
         </>
     );
 }
