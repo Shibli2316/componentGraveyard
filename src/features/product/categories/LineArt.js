@@ -5,7 +5,7 @@ const products = [
         id: 1,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -14,7 +14,7 @@ const products = [
         id: 2,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -23,7 +23,7 @@ const products = [
         id: 3,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -32,7 +32,7 @@ const products = [
         id: 4,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -41,7 +41,7 @@ const products = [
         id: 5,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -50,7 +50,7 @@ const products = [
         id: 6,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -59,7 +59,7 @@ const products = [
         id: 7,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -68,7 +68,7 @@ const products = [
         id: 8,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -77,7 +77,7 @@ const products = [
         id: 9,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -86,7 +86,7 @@ const products = [
         id: 10,
         name: 'Basic Tee',
         href: '#',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
         color: 'Black',
@@ -107,6 +107,7 @@ export default function LineArt() {
 
                             <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                                 {products.map((product) => (
+                                    <Link to='/product'>
                                     <div key={product.id} className="group relative">
                                         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                                             <img
@@ -128,6 +129,7 @@ export default function LineArt() {
                                             <p className="text-sm font-medium text-gray-900">{product.price}</p>
                                         </div>
                                     </div>
+                                    </Link>
                                 ))}
                             </div>
                         </div>
