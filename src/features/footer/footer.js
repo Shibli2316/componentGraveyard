@@ -9,7 +9,7 @@ function Footer() {
                     <h2 className="font-bold text-3xl xl:text-4xl leading-snug">
                         Would you like to work along?
                     </h2>
-                    <Link className="mt-8 xl:mt-12 px-12 py-5 text-lg font-medium leading-tight inline-block bg-gray-800 rounded-full shadow-xl border border-transparent hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-sky-999 focus:bg-zinc-500"
+                    <Link className="mt-8 xl:mt-12 px-12 py-5 text-lg font-medium leading-tight inline-block bg-gray-800 rounded-full shadow-xl border border-transparent hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-sky-999 focus:bg-zinc-500 text-white"
                         to="/contact">Collaborate</Link>
                     <div className="mt-14 xl:mt-20">
                         <nav className="flex flex-wrap justify-center text-lg font-medium">
