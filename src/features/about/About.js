@@ -1,19 +1,19 @@
 function About() {
     return (
         <>
-            <div id="about" class="relative bg-white overflow-hidden mt-16">
-                <div class="max-w-7xl mx-auto">
-                    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-                        <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+            <div id="about" className="relative bg-white overflow-hidden mt-16">
+                <div className="max-w-7xl mx-auto">
+                    <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                        <svg className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
                             fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
                             <polygon points="50,0 100,0 50,100 0,100"></polygon>
                         </svg>
 
-                        <div class="pt-1"></div>
+                        <div className="pt-1"></div>
 
-                        <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                            <div class="sm:text-center lg:text-left">
-                                <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
+                        <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                            <div className="sm:text-center lg:text-left">
+                                <h2 className="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
                                     About me
                                 </h2>
 
@@ -29,8 +29,8 @@ function About() {
                         </main>
                     </div>
                 </div>
-                <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                    <img class="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://cdn.pixabay.com/photo/2016/03/23/04/01/woman-1274056_960_720.jpg" alt="" />
+                <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+                    <img className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://cdn.pixabay.com/photo/2016/03/23/04/01/woman-1274056_960_720.jpg" alt="" />
                 </div>
             </div>
 
@@ -61,61 +61,61 @@ function About() {
 
 
 
-<div className="w-11/12 mx-auto">
-            <div class="px-4 py-20 bg-lightblue">
-                <div class="flex flex-col max-w-6xl mx-auto md:flex-row">
-                    <h2 class="w-full pb-6 mr-8 text-3xl font-extrabold leading-9 md:w-1/3">
-                        Frequently-asked questions
-                    </h2>
-                    <dl class="w-full md:w-2/3">
-                        <dt class="mb-4">
-                            <h3 class="text-xl font-semibold">
-                                This is a sample question?
-                            </h3>
-                        </dt>
-                        <dd class="mb-16">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+            <div className="w-11/12 mx-auto">
+                <div className="px-4 py-20 bg-lightblue">
+                    <div className="flex flex-col max-w-6xl mx-auto md:flex-row">
+                        <h2 className="w-full pb-6 mr-8 text-3xl font-extrabold leading-9 md:w-1/3">
+                            Frequently-asked questions
+                        </h2>
+                        <dl className="w-full md:w-2/3">
+                            <dt className="mb-4">
+                                <h3 className="text-xl font-semibold">
+                                    This is a sample question?
+                                </h3>
+                            </dt>
+                            <dd className="mb-16">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
 
-                            </p>
-                        </dd>
-                        <dt class="mb-4">
-                            <h3 class="text-xl font-semibold">
-                                This is a sample question?
-                            </h3>
-                        </dt>
-                        <dd class="mb-16">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </dd>
+                            <dt className="mb-4">
+                                <h3 className="text-xl font-semibold">
+                                    This is a sample question?
+                                </h3>
+                            </dt>
+                            <dd className="mb-16">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
 
-                            </p>
-                        </dd>
-                        <dt class="mb-4">
-                            <h3 class="text-xl font-semibold">
-                                This is a sample question?
-                            </h3>
-                        </dt>
-                        <dd class="mb-16">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </dd>
+                            <dt className="mb-4">
+                                <h3 className="text-xl font-semibold">
+                                    This is a sample question?
+                                </h3>
+                            </dt>
+                            <dd className="mb-16">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
 
-                            </p>
-                        </dd>
-                    </dl>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
                 </div>
-            </div>
             </div>
         </>
     );
