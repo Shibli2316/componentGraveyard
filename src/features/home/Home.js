@@ -1,44 +1,6 @@
 import { Link } from "react-router-dom"
 
-const products = [
-    {
-        id: 1,
-        name: 'Basic Tee',
-        href: '/product',
-        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
-        imageAlt: "Random Doodle.",
-        price: '$35',
-        color: 'Black',
-    },
-    {
-        id: 2,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
-        imageAlt: "Random Doodle.",
-        price: '$35',
-        color: 'Black',
-    },
-    {
-        id: 3,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
-        imageAlt: "Random Doodle.",
-        price: '$35',
-        color: 'Black',
-    },
-    {
-        id: 4,
-        name: 'Basic Tee',
-        href: '#',
-        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
-        imageAlt: "Random Doodle.",
-        price: '$35',
-        color: 'Black',
-    },
-    // More products...
-]
+
 const acrylics = [
     {
         id: 1,
@@ -80,7 +42,7 @@ const acrylics = [
 ]
 const doodles = [
     {
-        id: 1,
+        id: 5,
         name: 'Basic Tee',
         href: '/product',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -89,7 +51,7 @@ const doodles = [
         color: 'Black',
     },
     {
-        id: 2,
+        id: 6,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -98,7 +60,7 @@ const doodles = [
         color: 'Black',
     },
     {
-        id: 3,
+        id: 7,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -107,7 +69,7 @@ const doodles = [
         color: 'Black',
     },
     {
-        id: 4,
+        id: 8,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -119,7 +81,7 @@ const doodles = [
 ]
 const linearts = [
     {
-        id: 1,
+        id: 9,
         name: 'Basic Tee',
         href: '/product',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -128,7 +90,7 @@ const linearts = [
         color: 'Black',
     },
     {
-        id: 2,
+        id: 10,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -137,7 +99,7 @@ const linearts = [
         color: 'Black',
     },
     {
-        id: 3,
+        id: 11,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -146,7 +108,7 @@ const linearts = [
         color: 'Black',
     },
     {
-        id: 4,
+        id: 12,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -158,7 +120,7 @@ const linearts = [
 ]
 const murals = [
     {
-        id: 1,
+        id: 13,
         name: 'Basic Tee',
         href: '/product',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -167,7 +129,7 @@ const murals = [
         color: 'Black',
     },
     {
-        id: 2,
+        id: 14,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -176,7 +138,7 @@ const murals = [
         color: 'Black',
     },
     {
-        id: 3,
+        id: 15,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -185,7 +147,7 @@ const murals = [
         color: 'Black',
     },
     {
-        id: 4,
+        id: 16,
         name: 'Basic Tee',
         href: '#',
         imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
@@ -200,12 +162,12 @@ export default function Home() {
     return (
         <>
 
-            <div class="relative h-screen w-full">
-                <img src="https://images.unsplash.com/photo-1494783367193-149034c05e8f" alt="Background" class="absolute inset-0 w-full h-full object-cover filter blur-sm" />
-                <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-                <div class="absolute inset-0 flex flex-col items-center justify-center">
-                    <h1 class="text-4xl text-white font-bold">Hello, World!</h1>
-                    <p class="text-xl text-white mt-4">Doodles incoming</p>
+            <div className="relative h-screen w-full">
+                <img src="https://images.unsplash.com/photo-1494783367193-149034c05e8f" alt="Background" className="absolute inset-0 w-full h-full object-cover filter blur-sm" />
+                <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+                <div className="absolute inset-0 flex flex-col items-center justify-center">
+                    <h1 className="text-4xl text-white font-bold">Hello, World!</h1>
+                    <p className="text-xl text-white mt-4">Doodles incoming</p>
                 </div>
             </div>
 
@@ -225,8 +187,8 @@ export default function Home() {
 
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                             {acrylics.map((acrylic) => (
-                                <Link to={acrylic.href}>
-                                    <div key={acrylic.id} className="group relative">
+                                <Link to={acrylic.href} key={acrylic.id}>
+                                    <div className="group relative">
 
                                         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                                             <img
@@ -269,8 +231,8 @@ export default function Home() {
 
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                             {doodles.map((doodle) => (
-                                <Link to={doodle.href}>
-                                    <div key={doodle.id} className="group relative">
+                                <Link to={doodle.href} key={doodle.id}>
+                                    <div className="group relative">
                                         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                                             <img
                                                 src={doodle.imageSrc}
@@ -312,8 +274,8 @@ export default function Home() {
 
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                             {linearts.map((lineart) => (
-                                <Link to={lineart.href}>
-                                    <div key={lineart.id} className="group relative">
+                                <Link to={lineart.href} key={lineart.id}>
+                                    <div className="group relative">
                                         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                                             <img
                                                 src={lineart.imageSrc}
@@ -355,8 +317,8 @@ export default function Home() {
 
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                             {murals.map((mural) => (
-                                <Link to={mural.href}>
-                                    <div key={mural.id} className="group relative">
+                                <Link to={mural.href} key={mural.id}>
+                                    <div className="group relative">
                                         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                                             <img
                                                 src={mural.imageSrc}
