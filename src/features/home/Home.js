@@ -39,19 +39,175 @@ const products = [
     },
     // More products...
 ]
+const acrylics = [
+    {
+        id: 1,
+        name: 'Basic Doodle',
+        href: '/product',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Blue',
+    },
+    {
+        id: 2,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 3,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 4,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    // More products...
+]
+const doodles = [
+    {
+        id: 1,
+        name: 'Basic Tee',
+        href: '/product',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 2,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 3,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 4,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    // More products...
+]
+const linearts = [
+    {
+        id: 1,
+        name: 'Basic Tee',
+        href: '/product',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 2,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 3,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 4,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    // More products...
+]
+const murals = [
+    {
+        id: 1,
+        name: 'Basic Tee',
+        href: '/product',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 2,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 3,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    {
+        id: 4,
+        name: 'Basic Tee',
+        href: '#',
+        imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7RF-JLDTtMIV3Lw1UGZPwUI9FdHujlEfAA&usqp=CAU',
+        imageAlt: "Random Doodle.",
+        price: '$35',
+        color: 'Black',
+    },
+    // More products...
+]
 
 export default function Home() {
     return (
         <>
 
-<div class="relative h-screen w-full">
-    <img src="https://images.unsplash.com/photo-1494783367193-149034c05e8f" alt="Background" class="absolute inset-0 w-full h-full object-cover filter blur-sm" />
-    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-    <div class="absolute inset-0 flex flex-col items-center justify-center">
-        <h1 class="text-4xl text-white font-bold">Hello, World!</h1>
-        <p class="text-xl text-white mt-4">Doodles incoming</p>
-    </div>
-</div>
+            <div class="relative h-screen w-full">
+                <img src="https://images.unsplash.com/photo-1494783367193-149034c05e8f" alt="Background" class="absolute inset-0 w-full h-full object-cover filter blur-sm" />
+                <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                    <h1 class="text-4xl text-white font-bold">Hello, World!</h1>
+                    <p class="text-xl text-white mt-4">Doodles incoming</p>
+                </div>
+            </div>
 
 
 
@@ -68,30 +224,29 @@ export default function Home() {
                         </div>
 
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-                            {products.map((product) => (
-                                <Link to={product.href}>
-                                <div key={product.id} className="group relative">
-                                
-                                    <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                                        <img
-                                            src={product.imageSrc}
-                                            alt={product.imageAlt}
-                                            className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                                        />
-                                    </div>
-                                    <div className="mt-4 flex justify-between">
-                                        <div>
-                                            <h3 className="text-sm text-gray-700">
-                                                
-                                                    <span aria-hidden="true" className="absolute inset-0" />
-                                                    {product.name}
-                                                
-                                            </h3>
-                                            <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                            {acrylics.map((acrylic) => (
+                                <Link to={acrylic.href}>
+                                    <div key={acrylic.id} className="group relative">
+
+                                        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                                            <img
+                                                src={acrylic.imageSrc}
+                                                alt={acrylic.imageAlt}
+                                                className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                            />
                                         </div>
-                                        <p className="text-sm font-medium text-gray-900">{product.price}</p>
+                                        <div className="mt-4 flex justify-between">
+                                            <div>
+                                                <h3 className="text-sm text-gray-700">
+
+                                                    <span aria-hidden="true" className="absolute inset-0" />
+                                                    {acrylic.name}
+
+                                                </h3>
+                                            </div>
+                                            <p className="text-sm font-medium text-gray-900">{acrylic.price}</p>
+                                        </div>
                                     </div>
-                                </div>
                                 </Link>
                             ))}
                         </div>
@@ -113,29 +268,28 @@ export default function Home() {
                         </div>
 
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-                            {products.map((product) => (
-                                <Link to={product.href}>
-                                <div key={product.id} className="group relative">
-                                    <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                                        <img
-                                            src={product.imageSrc}
-                                            alt={product.imageAlt}
-                                            className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                                        />
-                                    </div>
-                                    <div className="mt-4 flex justify-between">
-                                        <div>
-                                            <h3 className="text-sm text-gray-700">
-                                                
-                                                    <span aria-hidden="true" className="absolute inset-0" />
-                                                    {product.name}
-                                                
-                                            </h3>
-                                            <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                            {doodles.map((doodle) => (
+                                <Link to={doodle.href}>
+                                    <div key={doodle.id} className="group relative">
+                                        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                                            <img
+                                                src={doodle.imageSrc}
+                                                alt={doodle.imageAlt}
+                                                className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                            />
                                         </div>
-                                        <p className="text-sm font-medium text-gray-900">{product.price}</p>
+                                        <div className="mt-4 flex justify-between">
+                                            <div>
+                                                <h3 className="text-sm text-gray-700">
+
+                                                    <span aria-hidden="true" className="absolute inset-0" />
+                                                    {doodle.name}
+
+                                                </h3>
+                                            </div>
+                                            <p className="text-sm font-medium text-gray-900">{doodle.price}</p>
+                                        </div>
                                     </div>
-                                </div>
                                 </Link>
                             ))}
                         </div>
@@ -157,29 +311,28 @@ export default function Home() {
                         </div>
 
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-                            {products.map((product) => (
-                                <Link to={product.href}>
-                                <div key={product.id} className="group relative">
-                                    <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                                        <img
-                                            src={product.imageSrc}
-                                            alt={product.imageAlt}
-                                            className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                                        />
-                                    </div>
-                                    <div className="mt-4 flex justify-between">
-                                        <div>
-                                            <h3 className="text-sm text-gray-700">
-                                                
-                                                    <span aria-hidden="true" className="absolute inset-0" />
-                                                    {product.name}
-                                                
-                                            </h3>
-                                            <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                            {linearts.map((lineart) => (
+                                <Link to={lineart.href}>
+                                    <div key={lineart.id} className="group relative">
+                                        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                                            <img
+                                                src={lineart.imageSrc}
+                                                alt={lineart.imageAlt}
+                                                className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                            />
                                         </div>
-                                        <p className="text-sm font-medium text-gray-900">{product.price}</p>
+                                        <div className="mt-4 flex justify-between">
+                                            <div>
+                                                <h3 className="text-sm text-gray-700">
+
+                                                    <span aria-hidden="true" className="absolute inset-0" />
+                                                    {lineart.name}
+
+                                                </h3>
+                                            </div>
+                                            <p className="text-sm font-medium text-gray-900">{lineart.price}</p>
+                                        </div>
                                     </div>
-                                </div>
                                 </Link>
                             ))}
                         </div>
@@ -201,29 +354,28 @@ export default function Home() {
                         </div>
 
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-                            {products.map((product) => (
-                                <Link to={product.href}>
-                                <div key={product.id} className="group relative">
-                                    <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                                        <img
-                                            src={product.imageSrc}
-                                            alt={product.imageAlt}
-                                            className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                                        />
-                                    </div>
-                                    <div className="mt-4 flex justify-between">
-                                        <div>
-                                            <h3 className="text-sm text-gray-700">
-                                                
-                                                    <span aria-hidden="true" className="absolute inset-0" />
-                                                    {product.name}
-                                                
-                                            </h3>
-                                            <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                            {murals.map((mural) => (
+                                <Link to={mural.href}>
+                                    <div key={mural.id} className="group relative">
+                                        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                                            <img
+                                                src={mural.imageSrc}
+                                                alt={mural.imageAlt}
+                                                className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                            />
                                         </div>
-                                        <p className="text-sm font-medium text-gray-900">{product.price}</p>
+                                        <div className="mt-4 flex justify-between">
+                                            <div>
+                                                <h3 className="text-sm text-gray-700">
+
+                                                    <span aria-hidden="true" className="absolute inset-0" />
+                                                    {mural.name}
+
+                                                </h3>
+                                            </div>
+                                            <p className="text-sm font-medium text-gray-900">{mural.price}</p>
+                                        </div>
                                     </div>
-                                </div>
                                 </Link>
                             ))}
                         </div>
